@@ -1,0 +1,43 @@
+.parent-feedback .swiper-pagination {
+    position: relative;
+    bottom: 0;
+    margin-top: 2rem;
+  }
+  
+  .parent-feedback .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background: #e2e8f0;
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+  
+  @media (min-width: 640px) {
+    .parent-feedback .swiper-pagination-bullet {
+      width: 12px;
+      height: 12px;
+    }
+  }
+  
+  .parent-feedback .swiper-pagination-bullet-active {
+    background: #e11d48;
+    transform: scale(1.2);
+  }
+  
+  .parent-feedback .swiper-slide {
+    opacity: 0.5;
+    transform: scale(0.9);
+    transition: all 0.3s ease;
+  }
+  
+  .parent-feedback .swiper-slide-active {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  @media (max-width: 767px) {
+    .parent-feedback .swiper-slide {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
